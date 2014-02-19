@@ -1,0 +1,60 @@
+PCBNEW-LibModule-V1  Mon 17 Feb 2014 12:25:29 PM EST
+# encoding utf-8
+$INDEX
+1HoleLargePin
+4HoleLargePinStaggered
+$EndINDEX
+$MODULE 1HoleLargePin
+Po 0 0 0 15 53011125 00000000 ~~
+Li 1HoleLargePin
+Sc 00000000
+AR 1HoleLargePin
+Op 0 0 0
+T0 0 -1000 600 600 0 120 N V 21 N "1HoleLargePin"
+T1 0 1000 600 600 0 120 N V 21 N "GND"
+$PAD
+Sh "1" C 370 370 0 0 0
+Dr 197 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  1HoleLargePin
+$MODULE 4HoleLargePinStaggered
+Po 0 0 0 15 530245F9 00000000 ~~
+Li 4HoleLargePinStaggered
+Sc 00000000
+AR 4HoleLargePinStaggered
+Op 0 0 0
+T0 0 -1000 600 600 0 120 N V 21 N "4HoleLargePinStaggered"
+T1 0 1000 600 600 0 120 N V 21 N "VAL**"
+$PAD
+Sh "1" C 370 370 0 0 0
+Dr 197 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 370 370 0 0 0
+Dr 197 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 709 0
+$EndPAD
+$PAD
+Sh "2" C 370 370 0 0 0
+Dr 197 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 354 -492
+$EndPAD
+$PAD
+Sh "4" C 370 370 0 0 0
+Dr 197 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1063 -492
+$EndPAD
+$EndMODULE  4HoleLargePinStaggered
+$EndLIBRARY

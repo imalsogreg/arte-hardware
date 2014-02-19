@@ -1,0 +1,421 @@
+# EESchema Netlist Version 1.1 created  Mon 17 Feb 2014 06:32:13 PM EST
+(
+ ( /52FE49C2 1HoleLargePin GND_HOLE_L_BOT1 HOLE-1
+  ( 1 N-000138 )
+ )
+ ( /52FE7EB3 1HoleLargePin GND_HOLE_L_TOP1 HOLE-1
+  ( 1 N-000096 )
+ )
+ ( /52FE7675 1HoleLargePin GND_HOLE_R_BOT1 HOLE-1
+  ( 1 N-000024 )
+ )
+ ( /52FE7F63 1HoleLargePin GND_HOLE_R_TOP1 HOLE-1
+  ( 1 N-000029 )
+ )
+ ( /52FE45F7 SM0603 GND_R_L_BOT1 0_Ohm
+  ( 1 GND )
+  ( 2 N-000138 )
+ )
+ ( /52FE7ED3 SM0603 GND_R_L_TOP1 0_Ohm
+  ( 1 N-000096 )
+  ( 2 GND )
+ )
+ ( /52FE7676 SM0603 GND_R_R_BOT1 0_Ohm
+  ( 1 GND )
+  ( 2 N-000024 )
+ )
+ ( /52FE7F62 SM0603 GND_R_R_TOP1 0_Ohm
+  ( 1 N-000029 )
+  ( 2 GND )
+ )
+ ( /52FE4541 HiroseDF17-70-Header Hirose1 DF17-70
+  ( 1 /L+ )
+  ( 2 ? )
+  ( 3 /P1 )
+  ( 4 /P2 )
+  ( 5 /P3 )
+  ( 6 /P4 )
+  ( 7 /P5 )
+  ( 8 /P6 )
+  ( 9 /P7 )
+  ( 10 /P8 )
+  ( 11 /P9 )
+  ( 12 /P10 )
+  ( 13 /P11 )
+  ( 14 /P12 )
+  ( 15 /P13 )
+  ( 16 /P14 )
+  ( 17 /P15 )
+  ( 18 /P16 )
+  ( 19 /P17 )
+  ( 20 /P18 )
+  ( 21 /P19 )
+  ( 22 /P20 )
+  ( 23 /P21 )
+  ( 24 /P22 )
+  ( 25 /P23 )
+  ( 26 /P24 )
+  ( 27 /P25 )
+  ( 28 /P26 )
+  ( 29 /P27 )
+  ( 30 /P28 )
+  ( 31 /P29 )
+  ( 32 /P30 )
+  ( 33 /P31 )
+  ( 34 /P32 )
+  ( 35 N-000138 )
+  ( 36 ? )
+  ( 37 /P65 )
+  ( 38 /P64 )
+  ( 39 /P63 )
+  ( 40 /P62 )
+  ( 41 /P61 )
+  ( 42 /P60 )
+  ( 43 /P59 )
+  ( 44 /P58 )
+  ( 45 /P57 )
+  ( 46 /P56 )
+  ( 47 /P55 )
+  ( 48 /P54 )
+  ( 49 /P53 )
+  ( 50 /P52 )
+  ( 51 /P51 )
+  ( 52 /P50 )
+  ( 53 /P49 )
+  ( 54 /P48 )
+  ( 55 /P47 )
+  ( 56 /P46 )
+  ( 57 /P45 )
+  ( 58 /P44 )
+  ( 59 /P43 )
+  ( 60 /P42 )
+  ( 61 /P41 )
+  ( 62 /P40 )
+  ( 63 /P39 )
+  ( 64 /P38 )
+  ( 65 /P37 )
+  ( 66 /P36 )
+  ( 67 /P35 )
+  ( 68 /P34 )
+  ( 69 N-000096 )
+  ( 70 /L- )
+ )
+ ( /52FE7677 HiroseDF17-70-Header Hirose2 DF17-70
+  ( 1 /R+ )
+  ( 2 ? )
+  ( 3 /66 )
+  ( 4 /67 )
+  ( 5 /68 )
+  ( 6 /69 )
+  ( 7 /70 )
+  ( 8 /71 )
+  ( 9 /72 )
+  ( 10 /73 )
+  ( 11 /74 )
+  ( 12 /75 )
+  ( 13 /76 )
+  ( 14 /77 )
+  ( 15 /78 )
+  ( 16 /79 )
+  ( 17 /80 )
+  ( 18 /81 )
+  ( 19 /82 )
+  ( 20 /83 )
+  ( 21 /84 )
+  ( 22 /85 )
+  ( 23 /86 )
+  ( 24 /87 )
+  ( 25 /88 )
+  ( 26 /89 )
+  ( 27 /90 )
+  ( 28 /91 )
+  ( 29 /92 )
+  ( 30 /93 )
+  ( 31 /94 )
+  ( 32 /95 )
+  ( 33 /96 )
+  ( 34 /97 )
+  ( 35 N-000024 )
+  ( 36 ? )
+  ( 37 /129 )
+  ( 38 /128 )
+  ( 39 /127 )
+  ( 40 /126 )
+  ( 41 /125 )
+  ( 42 /124 )
+  ( 43 /123 )
+  ( 44 /122 )
+  ( 45 /121 )
+  ( 46 /120 )
+  ( 47 /119 )
+  ( 48 /118 )
+  ( 49 /117 )
+  ( 50 /116 )
+  ( 51 /115 )
+  ( 52 /114 )
+  ( 53 /113 )
+  ( 54 /112 )
+  ( 55 /111 )
+  ( 56 /110 )
+  ( 57 /109 )
+  ( 58 /108 )
+  ( 59 /107 )
+  ( 60 /106 )
+  ( 61 /105 )
+  ( 62 /104 )
+  ( 63 /103 )
+  ( 64 /102 )
+  ( 65 /101 )
+  ( 66 /100 )
+  ( 67 /99 )
+  ( 68 /98 )
+  ( 69 N-000029 )
+  ( 70 /R- )
+ )
+ ( /53029AB5 SM0603 Res+1 0_Ohm
+  ( 1 /L+ )
+  ( 2 /R+ )
+ )
+ ( /53029ABF SM0603 Res-1 O_Ohm
+  ( 1 /L- )
+  ( 2 /R- )
+ )
+ ( /52FE600D 4HoleLargePinStaggered TT0 HOLE-4
+  ( 1 /P37 )
+  ( 2 /P36 )
+  ( 3 /P35 )
+  ( 4 /P34 )
+ )
+ ( /52FE601F 4HoleLargePinStaggered TT1 HOLE-4
+  ( 1 /P41 )
+  ( 2 /P40 )
+  ( 3 /P39 )
+  ( 4 /P38 )
+ )
+ ( /52FE6023 4HoleLargePinStaggered TT2 HOLE-4
+  ( 1 /P45 )
+  ( 2 /P44 )
+  ( 3 /P43 )
+  ( 4 /P42 )
+ )
+ ( /52FE6026 4HoleLargePinStaggered TT3 HOLE-4
+  ( 1 /P49 )
+  ( 2 /P48 )
+  ( 3 /P47 )
+  ( 4 /P46 )
+ )
+ ( /52FE5F27 4HoleLargePinStaggered TT4 HOLE-4
+  ( 1 /P1 )
+  ( 2 /P2 )
+  ( 3 /P3 )
+  ( 4 /P4 )
+ )
+ ( /52FE5F36 4HoleLargePinStaggered TT5 HOLE-4
+  ( 1 /P5 )
+  ( 2 /P6 )
+  ( 3 /P7 )
+  ( 4 /P8 )
+ )
+ ( /52FE5F3F 4HoleLargePinStaggered TT6 HOLE-4
+  ( 1 /P9 )
+  ( 2 /P10 )
+  ( 3 /P11 )
+  ( 4 /P12 )
+ )
+ ( /52FE5F4F 4HoleLargePinStaggered TT7 HOLE-4
+  ( 1 /P13 )
+  ( 2 /P14 )
+  ( 3 /P15 )
+  ( 4 /P16 )
+ )
+ ( /52FE5F54 4HoleLargePinStaggered TT8 HOLE-4
+  ( 1 /P17 )
+  ( 2 /P18 )
+  ( 3 /P19 )
+  ( 4 /P20 )
+ )
+ ( /52FE5F7A 4HoleLargePinStaggered TT9 HOLE-4
+  ( 1 /P21 )
+  ( 2 /P22 )
+  ( 3 /P23 )
+  ( 4 /P24 )
+ )
+ ( /52FE5F7C 4HoleLargePinStaggered TT10 HOLE-4
+  ( 1 /P25 )
+  ( 2 /P26 )
+  ( 3 /P27 )
+  ( 4 /P28 )
+ )
+ ( /52FE5F7E 4HoleLargePinStaggered TT11 HOLE-4
+  ( 1 /P29 )
+  ( 2 /P30 )
+  ( 3 /P31 )
+  ( 4 /P32 )
+ )
+ ( /52FE6028 4HoleLargePinStaggered TT12 HOLE-4
+  ( 1 /P53 )
+  ( 2 /P52 )
+  ( 3 /P51 )
+  ( 4 /P50 )
+ )
+ ( /52FE602B 4HoleLargePinStaggered TT13 HOLE-4
+  ( 1 /P57 )
+  ( 2 /P56 )
+  ( 3 /P55 )
+  ( 4 /P54 )
+ )
+ ( /52FE602D 4HoleLargePinStaggered TT14 HOLE-4
+  ( 1 /P61 )
+  ( 2 /P60 )
+  ( 3 /P59 )
+  ( 4 /P58 )
+ )
+ ( /52FE6032 4HoleLargePinStaggered TT15 HOLE-4
+  ( 1 /P65 )
+  ( 2 /P64 )
+  ( 3 /P63 )
+  ( 4 /P62 )
+ )
+ ( /52FE766C 4HoleLargePinStaggered TT16 HOLE-4
+  ( 1 /94 )
+  ( 2 /95 )
+  ( 3 /96 )
+  ( 4 /97 )
+ )
+ ( /52FE766D 4HoleLargePinStaggered TT17 HOLE-4
+  ( 1 /90 )
+  ( 2 /91 )
+  ( 3 /92 )
+  ( 4 /93 )
+ )
+ ( /52FE766E 4HoleLargePinStaggered TT18 HOLE-4
+  ( 1 /86 )
+  ( 2 /87 )
+  ( 3 /88 )
+  ( 4 /89 )
+ )
+ ( /52FE766F 4HoleLargePinStaggered TT19 HOLE-4
+  ( 1 /82 )
+  ( 2 /83 )
+  ( 3 /84 )
+  ( 4 /85 )
+ )
+ ( /52FE7664 4HoleLargePinStaggered TT20 HOLE-4
+  ( 1 /129 )
+  ( 2 /128 )
+  ( 3 /127 )
+  ( 4 /126 )
+ )
+ ( /52FE7665 4HoleLargePinStaggered TT21 HOLE-4
+  ( 1 /125 )
+  ( 2 /124 )
+  ( 3 /123 )
+  ( 4 /122 )
+ )
+ ( /52FE7666 4HoleLargePinStaggered TT22 HOLE-4
+  ( 1 /121 )
+  ( 2 /120 )
+  ( 3 /119 )
+  ( 4 /118 )
+ )
+ ( /52FE7667 4HoleLargePinStaggered TT23 HOLE-4
+  ( 1 /117 )
+  ( 2 /116 )
+  ( 3 /115 )
+  ( 4 /114 )
+ )
+ ( /52FE7668 4HoleLargePinStaggered TT24 HOLE-4
+  ( 1 /113 )
+  ( 2 /112 )
+  ( 3 /111 )
+  ( 4 /110 )
+ )
+ ( /52FE7669 4HoleLargePinStaggered TT25 HOLE-4
+  ( 1 /109 )
+  ( 2 /108 )
+  ( 3 /107 )
+  ( 4 /106 )
+ )
+ ( /52FE766A 4HoleLargePinStaggered TT26 HOLE-4
+  ( 1 /105 )
+  ( 2 /104 )
+  ( 3 /103 )
+  ( 4 /102 )
+ )
+ ( /52FE766B 4HoleLargePinStaggered TT27 HOLE-4
+  ( 1 /101 )
+  ( 2 /100 )
+  ( 3 /99 )
+  ( 4 /98 )
+ )
+ ( /52FE7670 4HoleLargePinStaggered TT28 HOLE-4
+  ( 1 /78 )
+  ( 2 /79 )
+  ( 3 /80 )
+  ( 4 /81 )
+ )
+ ( /52FE7671 4HoleLargePinStaggered TT29 HOLE-4
+  ( 1 /74 )
+  ( 2 /75 )
+  ( 3 /76 )
+  ( 4 /77 )
+ )
+ ( /52FE7672 4HoleLargePinStaggered TT30 HOLE-4
+  ( 1 /70 )
+  ( 2 /71 )
+  ( 3 /72 )
+  ( 4 /73 )
+ )
+ ( /52FE7673 4HoleLargePinStaggered TT31 HOLE-4
+  ( 1 /66 )
+  ( 2 /67 )
+  ( 3 /68 )
+  ( 4 /69 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component GND_R_L_BOT1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component GND_R_L_TOP1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component GND_R_R_BOT1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component GND_R_R_TOP1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component Res+1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component Res-1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
