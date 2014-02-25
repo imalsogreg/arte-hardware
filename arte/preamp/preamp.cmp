@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 20 Feb 2014 06:08:20 PM EST
+
+BeginCmp
+TimeStamp = /53062D8B;
+Reference = BackLED1;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53062D82;
+Reference = FrontLED1;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53051428;
+Reference = Input-Conn1;
+ValeurCmp = DF17-70;
+IdModule  = DF70-Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /530519BA;
+Reference = Output-Conn1;
+ValeurCmp = DF17-70;
+IdModule  = DF70-Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /53062D91;
+Reference = R1;
+ValeurCmp = 1_kOhm;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53062D9A;
+Reference = R2;
+ValeurCmp = 1_kOhm;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53066FF6;
+Reference = U1;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53067DC2;
+Reference = U2;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068438;
+Reference = U3;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068426;
+Reference = U4;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /5306844F;
+Reference = U5;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /5306845A;
+Reference = U6;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068455;
+Reference = U7;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068454;
+Reference = U8;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /5306847D;
+Reference = U9;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068472;
+Reference = U10;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068478;
+Reference = U11;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068477;
+Reference = U12;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068466;
+Reference = U13;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /53068471;
+Reference = U14;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /5306846B;
+Reference = U15;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+BeginCmp
+TimeStamp = /5306846C;
+Reference = U16;
+ValeurCmp = AD8643;
+IdModule  = QuadOpampFCSP16Thermal;
+EndCmp
+
+EndListe

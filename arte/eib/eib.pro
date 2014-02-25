@@ -1,13 +1,11 @@
-update=Sun 16 Feb 2014 03:09:53 PM EST
+update=Wed 19 Feb 2014 02:31:45 PM EST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/greghale/kicad/libs
@@ -105,3 +103,5 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/greghale/kicad/libs/neuralynxHoles
 LibName13=/home/greghale/kicad/libs/HiroseDF17
+[general]
+version=1
