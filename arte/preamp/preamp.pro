@@ -1,6 +1,6 @@
-update=Thu 20 Feb 2014 01:57:19 PM EST
+update=Thu 13 Mar 2014 03:21:47 PM EDT
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -71,8 +71,6 @@ LibName30=valves
 LibName31=/home/greghale/kicad/libs/ad8643
 LibName32=/home/greghale/kicad/libs/DF17-70
 LibName33=/home/greghale/kicad/libs/ad8643unity
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=0
@@ -104,3 +102,5 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/greghale/kicad/libs/amps
+[general]
+version=1

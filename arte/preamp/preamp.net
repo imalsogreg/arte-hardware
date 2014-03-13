@@ -1,5 +1,21 @@
-# EESchema Netlist Version 1.1 created  Mon 24 Feb 2014 01:31:47 PM EST
+# EESchema Netlist Version 1.1 created  Thu 13 Mar 2014 03:55:14 PM EDT
 (
+ ( /530BEC27 $noname  FrontLED2 LED {Lib=LED}
+  (    1 /LED_VCC )
+  (    2 N-000155 )
+ )
+ ( /530BEC26 $noname  BackLED2 LED {Lib=LED}
+  (    1 /LED_VCC )
+  (    2 N-000154 )
+ )
+ ( /530BEC25 $noname  R3 1_kOhm {Lib=R}
+  (    1 N-000155 )
+  (    2 /LED_VDD )
+ )
+ ( /530BEC24 $noname  R4 1_kOhm {Lib=R}
+  (    1 N-000154 )
+  (    2 /LED_VDD )
+ )
  ( /5306847D $noname  U9 AD8643 {Lib=AD8643}
   (    1 /P99 )
   (    2 /P35 )
@@ -305,24 +321,24 @@
   (   17 VCC )
  )
  ( /53062D9A $noname  R2 1_kOhm {Lib=R}
-  (    1 N-000033 )
-  (    2 VDD )
+  (    1 N-000023 )
+  (    2 /LED_VDD )
  )
  ( /53062D91 $noname  R1 1_kOhm {Lib=R}
-  (    1 N-000021 )
-  (    2 VDD )
+  (    1 N-000022 )
+  (    2 /LED_VDD )
  )
  ( /53062D8B $noname  BackLED1 LED {Lib=LED}
-  (    1 VCC )
-  (    2 N-000033 )
+  (    1 /LED_VCC )
+  (    2 N-000023 )
  )
  ( /53062D82 $noname  FrontLED1 LED {Lib=LED}
-  (    1 VCC )
-  (    2 N-000021 )
+  (    1 /LED_VCC )
+  (    2 N-000022 )
  )
  ( /530519BA MODULE  Output-Conn1 DF17-70 {Lib=DF17-70}
   (    1 VCC )
-  (    2 ? )
+  (    2 /LED_VCC )
   (    3 /P64 )
   (    4 /P65 )
   (    5 /P66 )
@@ -356,7 +372,7 @@
   (   33 /P94 )
   (   34 /P95 )
   (   35 GND )
-  (   36 ? )
+  (   36 /LED_VDD )
   (   37 /P127 )
   (   38 /P126 )
   (   39 /P125 )
@@ -467,6 +483,38 @@
 )
 *
 { Allowed footprints by component:
+$component FrontLED2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component BackLED2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R2
  R?
  SM0603
@@ -502,522 +550,536 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/P5" "P5"
- Input-Conn1 8
- U2 4
-Net 2 "/P4" "P4"
+Net 3 "/P11" "P11"
+ Input-Conn1 14
+ U3 11
+Net 4 "/P4" "P4"
  Input-Conn1 7
  U2 2
-Net 3 "/P70" "P70"
+Net 5 "/P5" "P5"
+ Input-Conn1 8
+ U2 4
+Net 6 "/P70" "P70"
  Output-Conn1 9
- U2 5
  U2 6
-Net 4 "/P71" "P71"
+ U2 5
+Net 7 "/P71" "P71"
  Output-Conn1 10
- U2 7
  U2 8
-Net 5 "/P6" "P6"
- Input-Conn1 9
+ U2 7
+Net 8 "/P6" "P6"
  U2 9
-Net 6 "/P7" "P7"
+ Input-Conn1 9
+Net 9 "/P7" "P7"
  Input-Conn1 10
  U2 11
-Net 8 "/P69" "P69"
- U2 14
+Net 11 "VCC" "VCC"
+ U8 17
+ U2 17
+ U1 3
+ U6 17
+ Input-Conn1 1
+ U5 17
+ U6 3
+ Output-Conn1 1
+ U7 17
+ U7 3
+ U8 3
+ U13 17
+ U13 3
+ U5 3
+ U9 17
+ U2 3
+ U3 3
+ U14 3
+ U15 17
+ U1 17
+ U14 17
+ U4 17
+ U16 17
+ U9 3
+ U12 3
+ U15 3
+ U12 17
+ U16 3
+ U11 17
+ U3 17
+ U4 3
+ U10 3
+ U10 17
+ U11 3
+Net 14 "/P15" "P15"
+ Input-Conn1 18
+ U4 11
+Net 15 "/P14" "P14"
+ U4 9
+ Input-Conn1 17
+Net 16 "/P13" "P13"
+ Input-Conn1 16
+ U4 4
+Net 17 "/P69" "P69"
  Output-Conn1 8
+ U2 14
  U2 12
-Net 9 "/P68" "P68"
+Net 18 "VDD" "VDD"
+ U15 10
+ U4 10
+ U2 10
+ U9 10
+ U3 10
+ Input-Conn1 70
+ U10 10
+ Output-Conn1 70
+ U6 10
+ U14 10
+ U8 10
+ U11 10
+ U1 10
+ U12 10
+ U7 10
+ U13 10
+ U16 10
+ U5 10
+Net 19 "/P8" "P8"
+ Input-Conn1 11
+ U3 2
+Net 20 "/P9" "P9"
+ U3 4
+ Input-Conn1 12
+Net 21 "/P10" "P10"
+ U3 9
+ Input-Conn1 13
+Net 22 "" ""
+ FrontLED1 2
+ R1 1
+Net 23 "" ""
+ R2 1
+ BackLED1 2
+Net 26 "/P68" "P68"
  Output-Conn1 7
  U2 1
  U2 15
-Net 11 "VCC" "VCC"
- U15 3
- U15 17
- U13 3
- U2 17
- U5 17
- U8 17
- Input-Conn1 1
- U11 17
- U14 3
- U12 3
- U7 17
- U7 3
- U14 17
- U4 3
- U16 17
- U11 3
- U16 3
- U6 3
- U12 17
- U2 3
- U8 3
- U13 17
- U3 17
- U6 17
- U10 17
- U1 3
- U3 3
- Output-Conn1 1
- U10 3
- U9 3
- BackLED1 1
- FrontLED1 1
- U9 17
- U1 17
- U5 3
- U4 17
-Net 12 "/P15" "P15"
- U4 11
- Input-Conn1 18
-Net 15 "/P8" "P8"
- U3 2
- Input-Conn1 11
-Net 16 "/P9" "P9"
- Input-Conn1 12
- U3 4
-Net 17 "/P10" "P10"
- U3 9
- Input-Conn1 13
-Net 18 "/P11" "P11"
- Input-Conn1 14
- U3 11
-Net 21 "" ""
- FrontLED1 2
- R1 1
-Net 22 "/P1" "P1"
- Input-Conn1 4
- U1 4
-Net 23 "/P0" "P0"
- Input-Conn1 3
- U1 2
-Net 24 "VDD" "VDD"
- Output-Conn1 70
- U10 10
- U5 10
- U4 10
- U9 10
- R1 2
- Input-Conn1 70
- U3 10
- R2 2
- U1 10
- U2 10
- U15 10
- U13 10
- U14 10
- U7 10
- U6 10
- U8 10
- U11 10
- U16 10
- U12 10
-Net 25 "/P66" "P66"
- U1 6
- U1 5
- Output-Conn1 5
-Net 26 "/P67" "P67"
- U1 8
- Output-Conn1 6
- U1 7
-Net 27 "/P2" "P2"
- U1 9
- Input-Conn1 5
-Net 28 "/P3" "P3"
- Input-Conn1 6
- U1 11
-Net 30 "/P65" "P65"
- U1 14
- U1 12
- Output-Conn1 4
-Net 31 "/P64" "P64"
- U1 15
- U1 1
- Output-Conn1 3
-Net 33 "" ""
- R2 1
- BackLED1 2
-Net 34 "/P17" "P17"
- Input-Conn1 20
- U5 4
-Net 35 "/P16" "P16"
- Input-Conn1 19
- U5 2
-Net 36 "/P18" "P18"
- Input-Conn1 21
- U5 9
-Net 37 "/P19" "P19"
- U5 11
- Input-Conn1 22
-Net 42 "/P28" "P28"
- Input-Conn1 31
- U8 2
-Net 43 "/P29" "P29"
- U8 4
- Input-Conn1 32
-Net 44 "/P30" "P30"
- Input-Conn1 33
- U8 9
-Net 45 "/P31" "P31"
- Input-Conn1 34
- U8 11
-Net 48 "/P25" "P25"
- U7 4
- Input-Conn1 28
-Net 49 "/P26" "P26"
- U7 9
- Input-Conn1 29
-Net 50 "/P27" "P27"
- Input-Conn1 30
- U7 11
-Net 53 "/P12" "P12"
+Net 27 "/P12" "P12"
  Input-Conn1 15
  U4 2
-Net 54 "/P13" "P13"
- Input-Conn1 16
- U4 4
-Net 55 "/P14" "P14"
- U4 9
- Input-Conn1 17
-Net 56 "/P20" "P20"
- U6 2
- Input-Conn1 23
-Net 57 "/P21" "P21"
- U6 4
- Input-Conn1 24
-Net 58 "/P22" "P22"
- U6 9
- Input-Conn1 25
-Net 59 "/P23" "P23"
- Input-Conn1 26
- U6 11
-Net 62 "/P24" "P24"
+Net 28 "/P64" "P64"
+ U1 1
+ U1 15
+ Output-Conn1 3
+Net 29 "/P0" "P0"
+ Input-Conn1 3
+ U1 2
+Net 30 "/P1" "P1"
+ Input-Conn1 4
+ U1 4
+Net 31 "/P66" "P66"
+ Output-Conn1 5
+ U1 6
+ U1 5
+Net 32 "/P67" "P67"
+ U1 7
+ U1 8
+ Output-Conn1 6
+Net 33 "/P2" "P2"
+ Input-Conn1 5
+ U1 9
+Net 34 "/P3" "P3"
+ U1 11
+ Input-Conn1 6
+Net 35 "/P65" "P65"
+ U1 14
+ Output-Conn1 4
+ U1 12
+Net 39 "/P31" "P31"
+ U8 11
+ Input-Conn1 34
+Net 40 "/P30" "P30"
+ U8 9
+ Input-Conn1 33
+Net 41 "/P16" "P16"
+ U5 2
+ Input-Conn1 19
+Net 42 "/P17" "P17"
+ U5 4
+ Input-Conn1 20
+Net 43 "/P18" "P18"
+ U5 9
+ Input-Conn1 21
+Net 44 "/P19" "P19"
+ Input-Conn1 22
+ U5 11
+Net 45 "/P50" "P50"
+ Input-Conn1 50
+ U13 4
+Net 46 "/P51" "P51"
+ Input-Conn1 49
+ U13 2
+Net 47 "/P49" "P49"
+ U13 9
+ Input-Conn1 51
+Net 48 "/P48" "P48"
+ Input-Conn1 52
+ U13 11
+Net 51 "/P28" "P28"
+ Input-Conn1 31
+ U8 2
+Net 52 "/P29" "P29"
+ U8 4
+ Input-Conn1 32
+Net 53 "/P24" "P24"
  U7 2
  Input-Conn1 27
-Net 63 "/P98" "P98"
- U9 6
- U9 5
- Output-Conn1 66
-Net 64 "/P89" "P89"
- U7 6
- U7 5
- Output-Conn1 28
-Net 65 "/P79" "P79"
- U4 7
- U4 8
- Output-Conn1 18
-Net 66 "/P97" "P97"
+Net 54 "/P26" "P26"
+ Input-Conn1 29
+ U7 9
+Net 55 "/P25" "P25"
+ U7 4
+ Input-Conn1 28
+Net 56 "/P27" "P27"
+ U7 11
+ Input-Conn1 30
+Net 61 "/P20" "P20"
+ U6 2
+ Input-Conn1 23
+Net 62 "/P21" "P21"
+ U6 4
+ Input-Conn1 24
+Net 63 "/P22" "P22"
+ Input-Conn1 25
+ U6 9
+Net 64 "/P23" "P23"
+ Input-Conn1 26
+ U6 11
+Net 67 "/P118" "P118"
+ U14 15
+ Output-Conn1 46
+ U14 1
+Net 68 "/P97" "P97"
  U9 7
- U9 8
  Output-Conn1 67
-Net 67 "/P107" "P107"
- U11 15
- Output-Conn1 57
+ U9 8
+Net 69 "/P107" "P107"
  U11 1
-Net 68 "/P117" "P117"
+ Output-Conn1 57
+ U11 15
+Net 70 "/P117" "P117"
+ Output-Conn1 47
  U14 12
  U14 14
- Output-Conn1 47
-Net 69 "/P127" "P127"
- U16 15
+Net 71 "/P127" "P127"
  U16 1
+ U16 15
  Output-Conn1 37
-Net 70 "/P88" "P88"
+Net 72 "/P88" "P88"
+ Output-Conn1 27
  U7 1
  U7 15
- Output-Conn1 27
-Net 71 "/P78" "P78"
+Net 73 "/P78" "P78"
  Output-Conn1 17
  U4 14
  U4 12
-Net 72 "/P126" "P126"
- U16 6
- Output-Conn1 38
- U16 5
-Net 73 "/P108" "P108"
- U12 8
+Net 74 "/P98" "P98"
+ Output-Conn1 66
+ U9 6
+ U9 5
+Net 75 "/P108" "P108"
  U12 7
+ U12 8
  Output-Conn1 56
-Net 74 "/P118" "P118"
- U14 1
- U14 15
- Output-Conn1 46
-Net 76 "/P87" "P87"
- U6 8
- Output-Conn1 26
+Net 76 "/P79" "P79"
+ U4 8
+ Output-Conn1 18
+ U4 7
+Net 77 "/P87" "P87"
  U6 7
-Net 77 "/P77" "P77"
+ Output-Conn1 26
+ U6 8
+Net 78 "/P77" "P77"
+ Output-Conn1 16
  U4 1
  U4 15
- Output-Conn1 16
-Net 78 "/P99" "P99"
+Net 79 "/P99" "P99"
  Output-Conn1 65
- U9 15
  U9 1
-Net 79 "/P109" "P109"
+ U9 15
+Net 80 "/P109" "P109"
+ Output-Conn1 55
  U12 14
  U12 12
- Output-Conn1 55
-Net 80 "/P119" "P119"
- U14 5
+Net 81 "/P119" "P119"
  U14 6
  Output-Conn1 45
-Net 81 "/P116" "P116"
- U14 8
+ U14 5
+Net 82 "GND" "GND"
+ Output-Conn1 35
+ Output-Conn1 69
+ Input-Conn1 69
+ Input-Conn1 35
+Net 83 "/P86" "P86"
+ U6 14
+ U6 12
+ Output-Conn1 25
+Net 84 "/P89" "P89"
+ Output-Conn1 28
+ U7 5
+ U7 6
+Net 85 "/P126" "P126"
+ Output-Conn1 38
+ U16 5
+ U16 6
+Net 86 "/P116" "P116"
  Output-Conn1 48
  U14 7
-Net 82 "/P106" "P106"
- Output-Conn1 58
+ U14 8
+Net 87 "/P106" "P106"
  U11 5
  U11 6
-Net 83 "/P96" "P96"
+ Output-Conn1 58
+Net 88 "/P96" "P96"
  U9 12
  U9 14
  Output-Conn1 68
-Net 84 "/P80" "P80"
+Net 89 "/P80" "P80"
  U5 1
  Output-Conn1 19
  U5 15
-Net 85 "/P90" "P90"
- Output-Conn1 29
+Net 90 "/P90" "P90"
  U7 7
+ Output-Conn1 29
  U7 8
-Net 86 "/P125" "P125"
- Output-Conn1 39
+Net 91 "/P125" "P125"
  U16 7
+ Output-Conn1 39
  U16 8
-Net 87 "/P115" "P115"
- Output-Conn1 49
- U13 1
+Net 92 "/P115" "P115"
  U13 15
-Net 88 "/P105" "P105"
- Output-Conn1 59
+ U13 1
+ Output-Conn1 49
+Net 93 "/P105" "P105"
  U11 8
  U11 7
-Net 89 "GND" "GND"
- Output-Conn1 69
- Input-Conn1 35
- Input-Conn1 69
- Output-Conn1 35
-Net 91 "/P102" "P102"
- U10 7
- Output-Conn1 62
- U10 8
-Net 92 "/P124" "P124"
- U16 14
- Output-Conn1 40
- U16 12
-Net 93 "/P114" "P114"
- U13 12
- U13 14
- Output-Conn1 50
-Net 94 "/P104" "P104"
- U11 12
- U11 14
- Output-Conn1 60
+ Output-Conn1 59
 Net 95 "/P72" "P72"
  U3 15
  Output-Conn1 11
  U3 1
-Net 96 "/P82" "P82"
- Output-Conn1 21
- U5 8
- U5 7
-Net 97 "/P92" "P92"
- U8 1
- U8 15
- Output-Conn1 31
-Net 98 "/P123" "P123"
- U15 1
- Output-Conn1 41
- U15 15
-Net 99 "/P113" "P113"
- Output-Conn1 51
- U13 5
- U13 6
-Net 100 "/P103" "P103"
- U10 5
- U10 6
- Output-Conn1 61
-Net 101 "/P73" "P73"
- U3 6
- U3 5
- Output-Conn1 12
-Net 102 "/P83" "P83"
- U5 12
- U5 14
- Output-Conn1 22
-Net 103 "/P93" "P93"
+Net 96 "/P93" "P93"
+ Output-Conn1 32
  U8 6
  U8 5
- Output-Conn1 32
+Net 97 "/P83" "P83"
+ Output-Conn1 22
+ U5 12
+ U5 14
+Net 98 "/P73" "P73"
+ U3 6
+ Output-Conn1 12
+ U3 5
+Net 99 "/P103" "P103"
+ Output-Conn1 61
+ U10 6
+ U10 5
+Net 100 "/P113" "P113"
+ U13 6
+ U13 5
+ Output-Conn1 51
+Net 101 "/P123" "P123"
+ U15 15
+ U15 1
+ Output-Conn1 41
+Net 102 "/P92" "P92"
+ U8 15
+ Output-Conn1 31
+ U8 1
+Net 103 "/P82" "P82"
+ U5 7
+ U5 8
+ Output-Conn1 21
 Net 104 "/P122" "P122"
+ Output-Conn1 42
  U15 5
  U15 6
- Output-Conn1 42
-Net 105 "/P112" "P112"
- Output-Conn1 52
- U13 8
- U13 7
-Net 106 "/P74" "P74"
- U3 8
- U3 7
- Output-Conn1 13
-Net 107 "/P84" "P84"
- U6 6
- U6 5
- Output-Conn1 23
-Net 108 "/P94" "P94"
- U8 8
- U8 7
- Output-Conn1 33
-Net 109 "/P121" "P121"
- Output-Conn1 43
- U15 7
- U15 8
-Net 110 "/P111" "P111"
- U12 5
- Output-Conn1 53
- U12 6
-Net 111 "/P101" "P101"
- U10 15
- U10 1
- Output-Conn1 63
-Net 112 "/P75" "P75"
- U3 12
- U3 14
- Output-Conn1 14
-Net 113 "/P85" "P85"
- U6 1
- U6 15
- Output-Conn1 24
-Net 114 "/P95" "P95"
- U8 12
- U8 14
- Output-Conn1 34
-Net 115 "/P120" "P120"
- U15 12
- U15 14
- Output-Conn1 44
-Net 116 "/P110" "P110"
- U12 1
- Output-Conn1 54
- U12 15
-Net 117 "/P100" "P100"
- U10 14
- Output-Conn1 64
- U10 12
-Net 118 "/P76" "P76"
- Output-Conn1 15
- U4 5
- U4 6
-Net 119 "/P86" "P86"
- U6 12
- Output-Conn1 25
- U6 14
-Net 120 "/P63" "P63"
- Input-Conn1 37
- U16 2
-Net 121 "/P36" "P36"
- U10 11
- Input-Conn1 64
-Net 122 "/P55" "P55"
- Input-Conn1 45
- U14 2
-Net 123 "/P45" "P45"
- Input-Conn1 55
- U12 9
-Net 124 "/P35" "P35"
- Input-Conn1 65
- U9 2
-Net 126 "/P54" "P54"
- Input-Conn1 46
- U14 4
-Net 127 "/P44" "P44"
- Input-Conn1 56
- U12 11
-Net 128 "/P34" "P34"
- Input-Conn1 66
- U9 4
-Net 129 "/P46" "P46"
- Input-Conn1 54
- U12 4
-Net 130 "/P53" "P53"
- Input-Conn1 47
- U14 9
-Net 131 "/P43" "P43"
- Input-Conn1 57
- U11 2
-Net 132 "/P33" "P33"
- Input-Conn1 67
- U9 9
-Net 133 "/P62" "P62"
- Input-Conn1 38
- U16 4
-Net 134 "/P52" "P52"
- Input-Conn1 48
- U14 11
-Net 135 "/P42" "P42"
- Input-Conn1 58
- U11 4
-Net 136 "/P32" "P32"
- U9 11
- Input-Conn1 68
-Net 137 "/P61" "P61"
- Input-Conn1 39
- U16 9
-Net 138 "/P51" "P51"
- U13 2
- Input-Conn1 49
-Net 139 "/P41" "P41"
- Input-Conn1 59
- U11 9
-Net 140 "/P60" "P60"
- U16 11
- Input-Conn1 40
-Net 141 "/P50" "P50"
- U13 4
- Input-Conn1 50
-Net 142 "/P40" "P40"
- U11 11
- Input-Conn1 60
-Net 143 "/P59" "P59"
- Input-Conn1 41
- U15 2
-Net 144 "/P49" "P49"
- U13 9
- Input-Conn1 51
-Net 145 "/P39" "P39"
- U10 2
- Input-Conn1 61
-Net 146 "/P91" "P91"
+Net 105 "/P104" "P104"
+ Output-Conn1 60
+ U11 12
+ U11 14
+Net 106 "/P114" "P114"
+ Output-Conn1 50
+ U13 12
+ U13 14
+Net 107 "/P124" "P124"
+ Output-Conn1 40
+ U16 14
+ U16 12
+Net 108 "/P91" "P91"
  Output-Conn1 30
  U7 12
  U7 14
-Net 147 "/P58" "P58"
- Input-Conn1 42
- U15 4
-Net 148 "/P48" "P48"
- Input-Conn1 52
- U13 11
-Net 149 "/P38" "P38"
- Input-Conn1 62
- U10 4
-Net 150 "/P57" "P57"
- Input-Conn1 43
- U15 9
-Net 151 "/P47" "P47"
- Input-Conn1 53
- U12 2
-Net 152 "/P37" "P37"
- U10 9
- Input-Conn1 63
-Net 153 "/P56" "P56"
+Net 109 "/P81" "P81"
+ Output-Conn1 20
+ U5 5
+ U5 6
+Net 110 "/P112" "P112"
+ U13 8
+ U13 7
+ Output-Conn1 52
+Net 111 "/P102" "P102"
+ Output-Conn1 62
+ U10 8
+ U10 7
+Net 112 "/P74" "P74"
+ U3 8
+ Output-Conn1 13
+ U3 7
+Net 113 "/P84" "P84"
+ Output-Conn1 23
+ U6 6
+ U6 5
+Net 114 "/P94" "P94"
+ U8 7
+ Output-Conn1 33
+ U8 8
+Net 115 "/P121" "P121"
+ U15 7
+ Output-Conn1 43
+ U15 8
+Net 116 "/P111" "P111"
+ U12 5
+ Output-Conn1 53
+ U12 6
+Net 117 "/P101" "P101"
+ Output-Conn1 63
+ U10 15
+ U10 1
+Net 118 "/P75" "P75"
+ Output-Conn1 14
+ U3 14
+ U3 12
+Net 119 "/P85" "P85"
+ U6 15
+ Output-Conn1 24
+ U6 1
+Net 120 "/P95" "P95"
+ Output-Conn1 34
+ U8 12
+ U8 14
+Net 121 "/P120" "P120"
+ Output-Conn1 44
+ U15 14
+ U15 12
+Net 122 "/P110" "P110"
+ Output-Conn1 54
+ U12 15
+ U12 1
+Net 123 "/P100" "P100"
+ Output-Conn1 64
+ U10 14
+ U10 12
+Net 124 "/P76" "P76"
+ U4 5
+ U4 6
+ Output-Conn1 15
+Net 125 "/P35" "P35"
+ U9 2
+ Input-Conn1 65
+Net 126 "/P34" "P34"
+ U9 4
+ Input-Conn1 66
+Net 127 "/P44" "P44"
+ U12 11
+ Input-Conn1 56
+Net 128 "/P54" "P54"
+ Input-Conn1 46
+ U14 4
+Net 130 "/P63" "P63"
+ Input-Conn1 37
+ U16 2
+Net 131 "/P45" "P45"
+ U12 9
+ Input-Conn1 55
+Net 132 "/P55" "P55"
+ Input-Conn1 45
+ U14 2
+Net 133 "/P36" "P36"
+ Input-Conn1 64
+ U10 11
+Net 134 "/P46" "P46"
+ Input-Conn1 54
+ U12 4
+Net 135 "/P56" "P56"
  Input-Conn1 44
  U15 11
-Net 155 "/P81" "P81"
- Output-Conn1 20
- U5 6
- U5 5
+Net 136 "/P53" "P53"
+ Input-Conn1 47
+ U14 9
+Net 137 "/P43" "P43"
+ Input-Conn1 57
+ U11 2
+Net 138 "/P33" "P33"
+ U9 9
+ Input-Conn1 67
+Net 139 "/P62" "P62"
+ Input-Conn1 38
+ U16 4
+Net 140 "/P52" "P52"
+ Input-Conn1 48
+ U14 11
+Net 141 "/P42" "P42"
+ U11 4
+ Input-Conn1 58
+Net 142 "/P32" "P32"
+ Input-Conn1 68
+ U9 11
+Net 143 "/P61" "P61"
+ U16 9
+ Input-Conn1 39
+Net 144 "/P41" "P41"
+ Input-Conn1 59
+ U11 9
+Net 145 "/P60" "P60"
+ Input-Conn1 40
+ U16 11
+Net 146 "/P59" "P59"
+ U15 2
+ Input-Conn1 41
+Net 147 "/P40" "P40"
+ Input-Conn1 60
+ U11 11
+Net 148 "/P39" "P39"
+ Input-Conn1 61
+ U10 2
+Net 149 "/P58" "P58"
+ U15 4
+ Input-Conn1 42
+Net 150 "/P38" "P38"
+ U10 4
+ Input-Conn1 62
+Net 151 "/P57" "P57"
+ Input-Conn1 43
+ U15 9
+Net 152 "/P47" "P47"
+ U12 2
+ Input-Conn1 53
+Net 153 "/P37" "P37"
+ U10 9
+ Input-Conn1 63
+Net 154 "" ""
+ BackLED2 2
+ R4 1
+Net 155 "" ""
+ FrontLED2 2
+ R3 1
+Net 156 "/LED_VDD" "LED_VDD"
+ R2 2
+ R1 2
+ Output-Conn1 36
+ R4 2
+ R3 2
+Net 169 "/LED_VCC" "LED_VCC"
+ FrontLED2 1
+ BackLED2 1
+ FrontLED1 1
+ BackLED1 1
+ Output-Conn1 2
 }
 #End

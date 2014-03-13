@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 20 Feb 2014 06:08:20 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 28 Feb 2014 08:18:37 PM EST
 
 BeginCmp
 TimeStamp = /53062D8B;
@@ -8,8 +8,22 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /530BEC26;
+Reference = BackLED2;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /53062D82;
 Reference = FrontLED1;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BEC27;
+Reference = FrontLED2;
 ValeurCmp = LED;
 IdModule  = SM0603;
 EndCmp
@@ -43,6 +57,20 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /530BEC25;
+Reference = R3;
+ValeurCmp = 1_kOhm;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /530BEC24;
+Reference = R4;
+ValeurCmp = 1_kOhm;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /53066FF6;
 Reference = U1;
 ValeurCmp = AD8643;
@@ -57,42 +85,42 @@ IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068438;
+TimeStamp = /53068426;
 Reference = U3;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068426;
+TimeStamp = /53068438;
 Reference = U4;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /5306844F;
+TimeStamp = /53068455;
 Reference = U5;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /5306845A;
+TimeStamp = /53068454;
 Reference = U6;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068455;
+TimeStamp = /5306844F;
 Reference = U7;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068454;
+TimeStamp = /5306845A;
 Reference = U8;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
@@ -106,21 +134,21 @@ IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068472;
+TimeStamp = /53068478;
 Reference = U10;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068478;
+TimeStamp = /53068477;
 Reference = U11;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068477;
+TimeStamp = /53068472;
 Reference = U12;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
@@ -134,21 +162,21 @@ IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53068471;
+TimeStamp = /5306846B;
 Reference = U14;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /5306846B;
+TimeStamp = /5306846C;
 Reference = U15;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
 EndCmp
 
 BeginCmp
-TimeStamp = /5306846C;
+TimeStamp = /53068471;
 Reference = U16;
 ValeurCmp = AD8643;
 IdModule  = QuadOpampFCSP16Thermal;
