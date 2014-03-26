@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 17 Feb 2014 06:30:39 PM EST
+EESchema Schematic File Version 2  date Wed 19 Feb 2014 12:56:00 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -832,19 +832,19 @@ R+
 Text Label 4200 6950 0    60   ~ 0
 L+
 $Comp
-L R Res-
+L R Res-1
 U 1 1 53029ABF
 P 4550 7150
-F 0 "Res-" V 4630 7150 50  0000 C CNN
+F 0 "Res-1" V 4630 7150 50  0000 C CNN
 F 1 "O Ohm" V 4550 7150 50  0000 C CNN
 	1    4550 7150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R Res+
+L R Res+1
 U 1 1 53029AB5
 P 4550 6950
-F 0 "Res+" V 4630 6950 50  0000 C CNN
+F 0 "Res+1" V 4630 6950 50  0000 C CNN
 F 1 "0 Ohm" V 4550 6950 50  0000 C CNN
 	1    4550 6950
 	0    -1   -1   0   

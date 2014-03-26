@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 19 Feb 2014 12:56:00 PM EST
+EESchema Schematic File Version 2  date Wed 26 Mar 2014 05:11:30 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "17 feb 2014"
+Date "26 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1000 7400 0    60   ~ 0
+EIB V4    ImAlsoGreg@gmail.com    sciencetypes.com
 Wire Wire Line
 	4800 7150 4900 7150
 Wire Wire Line
