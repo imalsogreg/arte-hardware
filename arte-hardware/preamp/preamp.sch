@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 26 Mar 2014 05:14:57 PM EDT
+EESchema Schematic File Version 2  date Thu 03 Apr 2014 02:00:47 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "26 mar 2014"
+Date "3 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,7 +50,7 @@ $EndDescr
 Text Notes 8600 7400 0    60   ~ 0
 imalsogreg@gmail.com    sciencetypes.com
 Text Notes 10700 7700 0    60   ~ 0
-V4\n
+V5\n
 Text Notes 8050 7550 0    60   ~ 0
 Preamp
 Text Label 10900 5650 0    60   ~ 0
