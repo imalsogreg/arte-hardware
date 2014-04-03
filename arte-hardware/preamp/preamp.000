@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 03 Apr 2014 01:58:18 PM EDT
+PCBNEW-BOARD Version 1 date Thu 03 Apr 2014 01:58:48 PM EDT
 
 # Created by Pcbnew(2012-apr-16-27)-stable
 
@@ -4307,7 +4307,7 @@ Po 19646 25876 295 394 59 0
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
-Te "Preamp V4"
+Te "Preamp V5"
 Po 19665 25177 295 394 59 0
 De 21 1 0 Normal C
 $EndTEXTPCB
