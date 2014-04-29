@@ -1,0 +1,1089 @@
+# EESchema Netlist Version 1.1 created  Mon 28 Apr 2014 03:13:24 PM EDT
+(
+ ( /5329AA62 MODULE  3x21 LED_POW_GND {Lib=LED_POW_GND}
+  (    1 /GR )
+  (    2 /LED+5 )
+  (    3 GND )
+  (    4 /+5 )
+  (    5 /-5 )
+  (    6 GND )
+ )
+ ( /5329AAFC $noname  CHAIN1 4x1 {Lib=CONN_4}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+ )
+ ( /5329ABB0 MODULE  SWITCH1 SWITCH1 {Lib=SWITCH1}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s1 )
+ )
+ ( /5329ABBF MODULE  SWITCH2 SWITCH2 {Lib=SWITCH2}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s2 )
+ )
+ ( /5329ABCE MODULE  SWITCH3 SWITCH3 {Lib=SWITCH3}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s3 )
+ )
+ ( /5329ABDD MODULE  SWITCH4 SWITCH4 {Lib=SWITCH4}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s4 )
+ )
+ ( /5329ABEC MODULE  SWITCH5 SWITCH5 {Lib=SWITCH5}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s5 )
+ )
+ ( /5329ABFB MODULE  SWITCH6 SWITCH6 {Lib=SWITCH6}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s6 )
+ )
+ ( /5329AC0A MODULE  SWITCH7 SWITCH7 {Lib=SWITCH7}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s7 )
+ )
+ ( /5329AC28 MODULE  SWITCH8 SWITCH8 {Lib=SWITCH8}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s8 )
+ )
+ ( /5329AC37 MODULE  SWITCH9 SWITCH9 {Lib=SWITCH9}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s9 )
+ )
+ ( /5329AC46 MODULE  SWITCH10 SWITCH10 {Lib=SWITCH10}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s10 )
+ )
+ ( /5329AC55 MODULE  SWITCH11 SWITCH11 {Lib=SWITCH11}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s11 )
+ )
+ ( /5329AC64 MODULE  SWITCH12 SWITCH12 {Lib=SWITCH12}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s12 )
+ )
+ ( /5329AC73 MODULE  SWITCH13 SWITCH13 {Lib=SWITCH13}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s13 )
+ )
+ ( /5329AC82 MODULE  SWITCH14 SWITCH14 {Lib=SWITCH14}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s14 )
+ )
+ ( /5329AC91 MODULE  SWITCH15 SWITCH15 {Lib=SWITCH15}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s15 )
+ )
+ ( /5329ACA0 MODULE  SWITCH16 SWITCH16 {Lib=SWITCH16}
+  (    1 /a )
+  (    2 /b )
+  (    3 /c )
+  (    4 /d )
+  (    5 /s16 )
+ )
+ ( /5329ACBE MODULE  OUTPUT3-4 OUTPUT3-4 {Lib=OUTPUT3-4}
+  (    1 ? )
+  (    2 /3a )
+  (    3 /3b )
+  (    4 /3c )
+  (    5 /3d )
+  (    6 /4a )
+  (    7 /4b )
+  (    8 /4c )
+  (    9 /4d )
+  (   10 ? )
+  (   11 ? )
+  (   12 /s4 )
+  (   13 /s4 )
+  (   14 /s4 )
+  (   15 /s4 )
+  (   16 /s3 )
+  (   17 /s3 )
+  (   18 /s3 )
+  (   19 /s3 )
+  (   20 ? )
+ )
+ ( /5329ACCD MODULE  OUTPUT5-6 OUTPUT5-6 {Lib=OUTPUT5-6}
+  (    1 ? )
+  (    2 /5a )
+  (    3 /5b )
+  (    4 /5c )
+  (    5 /5d )
+  (    6 /6a )
+  (    7 /6b )
+  (    8 /6c )
+  (    9 /6d )
+  (   10 ? )
+  (   11 ? )
+  (   12 /s6 )
+  (   13 /s6 )
+  (   14 /s6 )
+  (   15 /s6 )
+  (   16 /s5 )
+  (   17 /s5 )
+  (   18 /s5 )
+  (   19 /s5 )
+  (   20 ? )
+ )
+ ( /5329ACDC MODULE  OUTPUT7-8 OUTPUT7-8 {Lib=OUTPUT7-8}
+  (    1 ? )
+  (    2 /7a )
+  (    3 /7b )
+  (    4 /7c )
+  (    5 /7d )
+  (    6 /8a )
+  (    7 /8b )
+  (    8 /8c )
+  (    9 /8d )
+  (   10 ? )
+  (   11 ? )
+  (   12 /s8 )
+  (   13 /s8 )
+  (   14 /s8 )
+  (   15 /s8 )
+  (   16 /s7 )
+  (   17 /s7 )
+  (   18 /s7 )
+  (   19 /s7 )
+  (   20 ? )
+ )
+ ( /5329ACEB MODULE  OUTPUT9-10 OUTPUT9-10 {Lib=OUTPUT9-10}
+  (    1 ? )
+  (    2 /9a )
+  (    3 /9b )
+  (    4 /9c )
+  (    5 /9d )
+  (    6 /10a )
+  (    7 /10b )
+  (    8 /10c )
+  (    9 /10d )
+  (   10 ? )
+  (   11 ? )
+  (   12 /s10 )
+  (   13 /s10 )
+  (   14 /s10 )
+  (   15 /s10 )
+  (   16 /s9 )
+  (   17 /s9 )
+  (   18 /s9 )
+  (   19 /s9 )
+  (   20 ? )
+ )
+ ( /5329ACFA MODULE  OUTPUT11-12 OUTPUT11-12 {Lib=OUTPUT11-12}
+  (    1 ? )
+  (    2 /s11 )
+  (    3 /s11 )
+  (    4 /s11 )
+  (    5 /s11 )
+  (    6 /s12 )
+  (    7 /s12 )
+  (    8 /s12 )
+  (    9 /s12 )
+  (   10 ? )
+  (   11 ? )
+  (   12 /12d )
+  (   13 /12c )
+  (   14 /12b )
+  (   15 /12a )
+  (   16 /11d )
+  (   17 /11c )
+  (   18 /11b )
+  (   19 /11a )
+  (   20 ? )
+ )
+ ( /5329AD09 MODULE  OUTPUT13-14 OUTPUT13-14 {Lib=OUTPUT13-14}
+  (    1 ? )
+  (    2 /13a )
+  (    3 /13b )
+  (    4 /13c )
+  (    5 /13d )
+  (    6 /14a )
+  (    7 /14b )
+  (    8 /14c )
+  (    9 /14d )
+  (   10 ? )
+  (   11 ? )
+  (   12 /s14 )
+  (   13 /s14 )
+  (   14 /s14 )
+  (   15 /s14 )
+  (   16 /s13 )
+  (   17 /s13 )
+  (   18 /s13 )
+  (   19 /s13 )
+  (   20 ? )
+ )
+ ( /5329AD18 MODULE  OUTPUT15-16 OUTPUT15-16 {Lib=OUTPUT15-16}
+  (    1 ? )
+  (    2 /15a )
+  (    3 /15b )
+  (    4 /15c )
+  (    5 /15d )
+  (    6 /16a )
+  (    7 /16b )
+  (    8 /16c )
+  (    9 /16d )
+  (   10 ? )
+  (   11 GND )
+  (   12 /s16 )
+  (   13 /s16 )
+  (   14 /s16 )
+  (   15 /s16 )
+  (   16 /s15 )
+  (   17 /s15 )
+  (   18 /s15 )
+  (   19 /s15 )
+  (   20 ? )
+ )
+ ( /5329ACAF MODULE  OUTPUT1-2 OUTPUT1-2 {Lib=OUTPUT1-2}
+  (    1 /GR )
+  (    2 /1a )
+  (    3 /1b )
+  (    4 /1c )
+  (    5 /1d )
+  (    6 /2a )
+  (    7 /2b )
+  (    8 /2c )
+  (    9 /2d )
+  (   10 ? )
+  (   11 ? )
+  (   12 /s2 )
+  (   13 /s2 )
+  (   14 /s2 )
+  (   15 /s2 )
+  (   16 /s1 )
+  (   17 /s1 )
+  (   18 /s1 )
+  (   19 /s1 )
+  (   20 GND )
+ )
+ ( /533066E7 $noname  TET1-4 TET1-4 {Lib=DIL16}
+  (    1 /3d )
+  (    2 /3c )
+  (    3 /3b )
+  (    4 /3a )
+  (    5 /1d )
+  (    6 /1c )
+  (    7 /1b )
+  (    8 /1a )
+  (    9 /2a )
+  (   10 /2b )
+  (   11 /2c )
+  (   12 /2d )
+  (   13 /4a )
+  (   14 /4b )
+  (   15 /4c )
+  (   16 /4d )
+ )
+ ( /533066F4 $noname  TET5-8 TET5-8 {Lib=DIL16}
+  (    1 /7d )
+  (    2 /7c )
+  (    3 /7b )
+  (    4 /7a )
+  (    5 /5d )
+  (    6 /5c )
+  (    7 /5b )
+  (    8 /5a )
+  (    9 /6a )
+  (   10 /6b )
+  (   11 /6c )
+  (   12 /6d )
+  (   13 /8a )
+  (   14 /8b )
+  (   15 /8c )
+  (   16 /8d )
+ )
+ ( /533066FA $noname  TET9-12 TET9-12 {Lib=DIL16}
+  (    1 /11d )
+  (    2 /11c )
+  (    3 /11b )
+  (    4 /11a )
+  (    5 /9d )
+  (    6 /9c )
+  (    7 /9b )
+  (    8 /9a )
+  (    9 /10a )
+  (   10 /10b )
+  (   11 /10c )
+  (   12 /10d )
+  (   13 /12a )
+  (   14 /12b )
+  (   15 /12c )
+  (   16 /12d )
+ )
+ ( /53306700 $noname  TET13-16 TET13-16 {Lib=DIL16}
+  (    1 /15d )
+  (    2 /15c )
+  (    3 /15b )
+  (    4 /15a )
+  (    5 /13d )
+  (    6 /13c )
+  (    7 /13b )
+  (    8 /13a )
+  (    9 /14a )
+  (   10 /14b )
+  (   11 /14c )
+  (   12 /14d )
+  (   13 /16a )
+  (   14 /16b )
+  (   15 /16c )
+  (   16 /16d )
+ )
+ ( /53306792 $noname  REF1-4 REF1-4 {Lib=DIL16}
+  (    1 /3d )
+  (    2 /3c )
+  (    3 /3b )
+  (    4 /3a )
+  (    5 /1d )
+  (    6 /1c )
+  (    7 /1b )
+  (    8 /1a )
+  (    9 /2a )
+  (   10 /2b )
+  (   11 /2c )
+  (   12 /2d )
+  (   13 /4a )
+  (   14 /4b )
+  (   15 /4c )
+  (   16 /4d )
+ )
+ ( /53306798 $noname  REF5-8 REF5-8 {Lib=DIL16}
+  (    1 /7d )
+  (    2 /7c )
+  (    3 /7b )
+  (    4 /7a )
+  (    5 /5d )
+  (    6 /5c )
+  (    7 /5b )
+  (    8 /5a )
+  (    9 /6a )
+  (   10 /6b )
+  (   11 /6c )
+  (   12 /6d )
+  (   13 /8a )
+  (   14 /8b )
+  (   15 /8c )
+  (   16 /8d )
+ )
+ ( /5330679E $noname  REF9-12 REF9-12 {Lib=DIL16}
+  (    1 /11d )
+  (    2 /11c )
+  (    3 /11b )
+  (    4 /11a )
+  (    5 /9d )
+  (    6 /9c )
+  (    7 /9b )
+  (    8 /9a )
+  (    9 /10a )
+  (   10 /10b )
+  (   11 /10c )
+  (   12 /10d )
+  (   13 /12a )
+  (   14 /12b )
+  (   15 /12c )
+  (   16 /12d )
+ )
+ ( /533067A4 $noname  REF13-16 REF13-16 {Lib=DIL16}
+  (    1 /15d )
+  (    2 /15c )
+  (    3 /15b )
+  (    4 /15a )
+  (    5 /13d )
+  (    6 /13c )
+  (    7 /13b )
+  (    8 /13a )
+  (    9 /14a )
+  (   10 /14b )
+  (   11 /14c )
+  (   12 /14d )
+  (   13 /16a )
+  (   14 /16b )
+  (   15 /16c )
+  (   16 /16d )
+ )
+ ( /533C59F4 $noname  power_male1 power_male {Lib=CONN_5}
+  (    1 N-000055 )
+  (    2 N-000056 )
+  (    3 ? )
+  (    4 /GR )
+  (    5 GND )
+ )
+ ( /533C5A60 $noname  D2 DIODE {Lib=DIODE}
+  (    1 N-000054 )
+  (    2 /-5 )
+ )
+ ( /533C5A6D $noname  D1 DIODE {Lib=DIODE}
+  (    1 /+5 )
+  (    2 N-000057 )
+ )
+ ( /533C5A7E $noname  D3 LED {Lib=LED}
+  (    1 /+5 )
+  (    2 N-000051 )
+ )
+ ( /533C5B58 $noname  R1 R {Lib=R}
+  (    1 N-000051 )
+  (    2 GND )
+ )
+ ( /533C5B98 $noname  R2 R {Lib=R}
+  (    1 GND )
+  (    2 N-000052 )
+ )
+ ( /533C5BD1 $noname  C2 C {Lib=C}
+  (    1 /+5 )
+  (    2 GND )
+ )
+ ( /533C5BDE $noname  C3 C {Lib=C}
+  (    1 GND )
+  (    2 /-5 )
+ )
+ ( /533C5BE4 $noname  C1 C {Lib=C}
+  (    1 N-000057 )
+  (    2 GND )
+ )
+ ( /533C5C1D $noname  D4 LED {Lib=LED}
+  (    1 N-000052 )
+  (    2 /-5 )
+ )
+ ( /533C5E6C $noname  C4 CP {Lib=CP}
+  (    1 GND )
+  (    2 /+5 )
+ )
+ ( /533C5E79 $noname  C5 CP {Lib=CP}
+  (    1 /-5 )
+  (    2 GND )
+ )
+ ( /533C6603 $noname  NegR1 GS3 {Lib=GS3}
+  (    1 GND )
+  (    2 N-000054 )
+  (    3 /-5 )
+ )
+ ( /533C66C6 $noname  dropoutR1 GS3 {Lib=GS3}
+  (    1 N-000057 )
+  (    2 GND )
+  (    3 /+5 )
+ )
+ ( /5342E9D8 MODULE  U1 POWER_SWITCH {Lib=POWER_SWITCH}
+  (    1 N-000055 )
+  (    2 ? )
+  (    3 N-000056 )
+  (    4 ? )
+  (    5 N-000054 )
+  (    6 N-000057 )
+ )
+ ( /534C18F7 $noname  PMETER1 PMETER {Lib=CONN_4}
+  (    1 ? )
+  (    2 N-000057 )
+  (    3 /LED+5 )
+  (    4 GND )
+ )
+ ( /534C2618 $noname  screw1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /534C262A $noname  screw2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /534C2630 $noname  screw3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /534C2636 $noname  screw4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/11a" "11a"
+ REF9-12 4
+ OUTPUT11-12 19
+ TET9-12 4
+Net 2 "/5b" "5b"
+ TET5-8 7
+ REF5-8 7
+ OUTPUT5-6 3
+Net 3 "/5a" "5a"
+ OUTPUT5-6 2
+ REF5-8 8
+ TET5-8 8
+Net 4 "/6a" "6a"
+ REF5-8 9
+ TET5-8 9
+ OUTPUT5-6 6
+Net 5 "/6b" "6b"
+ TET5-8 10
+ REF5-8 10
+ OUTPUT5-6 7
+Net 6 "/6c" "6c"
+ TET5-8 11
+ OUTPUT5-6 8
+ REF5-8 11
+Net 7 "/6d" "6d"
+ OUTPUT5-6 9
+ TET5-8 12
+ REF5-8 12
+Net 8 "/8a" "8a"
+ REF5-8 13
+ OUTPUT7-8 6
+ TET5-8 13
+Net 9 "/8b" "8b"
+ REF5-8 14
+ TET5-8 14
+ OUTPUT7-8 7
+Net 10 "/8c" "8c"
+ TET5-8 15
+ OUTPUT7-8 8
+ REF5-8 15
+Net 11 "/8d" "8d"
+ TET5-8 16
+ OUTPUT7-8 9
+ REF5-8 16
+Net 12 "/11d" "11d"
+ OUTPUT11-12 16
+ TET9-12 1
+ REF9-12 1
+Net 13 "/11c" "11c"
+ REF9-12 2
+ TET9-12 2
+ OUTPUT11-12 17
+Net 14 "/11b" "11b"
+ OUTPUT11-12 18
+ TET9-12 3
+ REF9-12 3
+Net 15 "/5c" "5c"
+ OUTPUT5-6 4
+ TET5-8 6
+ REF5-8 6
+Net 16 "/9d" "9d"
+ REF9-12 5
+ OUTPUT9-10 5
+ TET9-12 5
+Net 17 "/9c" "9c"
+ REF9-12 6
+ OUTPUT9-10 4
+ TET9-12 6
+Net 18 "/9b" "9b"
+ REF9-12 7
+ OUTPUT9-10 3
+ TET9-12 7
+Net 19 "/9a" "9a"
+ TET9-12 8
+ OUTPUT9-10 2
+ REF9-12 8
+Net 20 "/10a" "10a"
+ TET9-12 9
+ OUTPUT9-10 6
+ REF9-12 9
+Net 21 "/10b" "10b"
+ TET9-12 10
+ OUTPUT9-10 7
+ REF9-12 10
+Net 22 "/10c" "10c"
+ REF9-12 11
+ TET9-12 11
+ OUTPUT9-10 8
+Net 23 "/10d" "10d"
+ OUTPUT9-10 9
+ TET9-12 12
+ REF9-12 12
+Net 24 "/12a" "12a"
+ TET9-12 13
+ OUTPUT11-12 15
+ REF9-12 13
+Net 25 "/12b" "12b"
+ OUTPUT11-12 14
+ TET9-12 14
+ REF9-12 14
+Net 26 "/12c" "12c"
+ TET9-12 15
+ OUTPUT11-12 13
+ REF9-12 15
+Net 27 "/12d" "12d"
+ TET9-12 16
+ OUTPUT11-12 12
+ REF9-12 16
+Net 28 "/15d" "15d"
+ TET13-16 1
+ REF13-16 1
+ OUTPUT15-16 5
+Net 29 "/2a" "2a"
+ REF1-4 9
+ TET1-4 9
+ OUTPUT1-2 6
+Net 30 "/3d" "3d"
+ OUTPUT3-4 5
+ REF1-4 1
+ TET1-4 1
+Net 31 "/3c" "3c"
+ OUTPUT3-4 4
+ TET1-4 2
+ REF1-4 2
+Net 32 "/3b" "3b"
+ OUTPUT3-4 3
+ TET1-4 3
+ REF1-4 3
+Net 33 "/3a" "3a"
+ TET1-4 4
+ REF1-4 4
+ OUTPUT3-4 2
+Net 34 "/1d" "1d"
+ OUTPUT1-2 5
+ REF1-4 5
+ TET1-4 5
+Net 35 "/1c" "1c"
+ TET1-4 6
+ OUTPUT1-2 4
+ REF1-4 6
+Net 36 "/1b" "1b"
+ OUTPUT1-2 3
+ TET1-4 7
+ REF1-4 7
+Net 37 "/1a" "1a"
+ OUTPUT1-2 2
+ REF1-4 8
+ TET1-4 8
+Net 38 "/2b" "2b"
+ TET1-4 10
+ REF1-4 10
+ OUTPUT1-2 7
+Net 39 "/2c" "2c"
+ TET1-4 11
+ OUTPUT1-2 8
+ REF1-4 11
+Net 40 "/2d" "2d"
+ OUTPUT1-2 9
+ TET1-4 12
+ REF1-4 12
+Net 41 "/4a" "4a"
+ REF1-4 13
+ TET1-4 13
+ OUTPUT3-4 6
+Net 42 "/4b" "4b"
+ REF1-4 14
+ TET1-4 14
+ OUTPUT3-4 7
+Net 43 "/4c" "4c"
+ REF1-4 15
+ TET1-4 15
+ OUTPUT3-4 8
+Net 44 "/4d" "4d"
+ OUTPUT3-4 9
+ TET1-4 16
+ REF1-4 16
+Net 45 "/7d" "7d"
+ OUTPUT7-8 5
+ REF5-8 1
+ TET5-8 1
+Net 46 "/7c" "7c"
+ REF5-8 2
+ OUTPUT7-8 4
+ TET5-8 2
+Net 47 "/7b" "7b"
+ OUTPUT7-8 3
+ TET5-8 3
+ REF5-8 3
+Net 48 "/7a" "7a"
+ REF5-8 4
+ OUTPUT7-8 2
+ TET5-8 4
+Net 49 "/5d" "5d"
+ REF5-8 5
+ OUTPUT5-6 5
+ TET5-8 5
+Net 50 "/15c" "15c"
+ REF13-16 2
+ TET13-16 2
+ OUTPUT15-16 4
+Net 51 "" ""
+ R1 1
+ D3 2
+Net 52 "" ""
+ R2 2
+ D4 1
+Net 53 "/LED+5" "LED+5"
+ 3x21 2
+ PMETER1 3
+Net 54 "" ""
+ U1 5
+ D2 1
+ NegR1 2
+Net 55 "" ""
+ power_male1 1
+ U1 1
+Net 56 "" ""
+ U1 3
+ power_male1 2
+Net 57 "" ""
+ C1 1
+ dropoutR1 1
+ U1 6
+ PMETER1 2
+ D1 2
+Net 58 "/+5" "+5"
+ dropoutR1 3
+ 3x21 4
+ D1 1
+ C4 2
+ D3 1
+ C2 1
+Net 59 "/-5" "-5"
+ C3 2
+ NegR1 3
+ D2 2
+ 3x21 5
+ C5 1
+ D4 2
+Net 60 "/16d" "16d"
+ OUTPUT15-16 9
+ REF13-16 16
+ TET13-16 16
+Net 61 "/15b" "15b"
+ TET13-16 3
+ OUTPUT15-16 3
+ REF13-16 3
+Net 62 "/15a" "15a"
+ TET13-16 4
+ REF13-16 4
+ OUTPUT15-16 2
+Net 63 "/13d" "13d"
+ OUTPUT13-14 5
+ TET13-16 5
+ REF13-16 5
+Net 64 "/13c" "13c"
+ REF13-16 6
+ TET13-16 6
+ OUTPUT13-14 4
+Net 65 "/13b" "13b"
+ REF13-16 7
+ TET13-16 7
+ OUTPUT13-14 3
+Net 66 "/13a" "13a"
+ OUTPUT13-14 2
+ TET13-16 8
+ REF13-16 8
+Net 67 "/14a" "14a"
+ REF13-16 9
+ TET13-16 9
+ OUTPUT13-14 6
+Net 68 "/14b" "14b"
+ TET13-16 10
+ OUTPUT13-14 7
+ REF13-16 10
+Net 69 "/14c" "14c"
+ OUTPUT13-14 8
+ TET13-16 11
+ REF13-16 11
+Net 70 "/14d" "14d"
+ OUTPUT13-14 9
+ TET13-16 12
+ REF13-16 12
+Net 71 "/16a" "16a"
+ TET13-16 13
+ REF13-16 13
+ OUTPUT15-16 6
+Net 72 "/16b" "16b"
+ TET13-16 14
+ OUTPUT15-16 7
+ REF13-16 14
+Net 73 "/16c" "16c"
+ OUTPUT15-16 8
+ REF13-16 15
+ TET13-16 15
+Net 90 "/s8" "s8"
+ OUTPUT7-8 14
+ OUTPUT7-8 12
+ OUTPUT7-8 13
+ OUTPUT7-8 15
+ SWITCH8 5
+Net 91 "/s7" "s7"
+ OUTPUT7-8 19
+ OUTPUT7-8 18
+ OUTPUT7-8 17
+ OUTPUT7-8 16
+ SWITCH7 5
+Net 99 "/s6" "s6"
+ OUTPUT5-6 12
+ OUTPUT5-6 14
+ OUTPUT5-6 15
+ OUTPUT5-6 13
+ SWITCH6 5
+Net 100 "/s5" "s5"
+ SWITCH5 5
+ OUTPUT5-6 16
+ OUTPUT5-6 17
+ OUTPUT5-6 18
+ OUTPUT5-6 19
+Net 111 "/d" "d"
+ SWITCH2 4
+ SWITCH10 4
+ SWITCH11 4
+ CHAIN1 4
+ SWITCH14 4
+ SWITCH13 4
+ SWITCH1 4
+ SWITCH12 4
+ SWITCH7 4
+ SWITCH5 4
+ SWITCH15 4
+ SWITCH16 4
+ SWITCH6 4
+ SWITCH3 4
+ SWITCH9 4
+ SWITCH4 4
+ SWITCH8 4
+Net 112 "/s9" "s9"
+ OUTPUT9-10 16
+ SWITCH9 5
+ OUTPUT9-10 19
+ OUTPUT9-10 18
+ OUTPUT9-10 17
+Net 113 "GND" "GND"
+ OUTPUT1-2 20
+ OUTPUT15-16 11
+ C5 2
+ C1 2
+ R1 2
+ R2 1
+ C2 2
+ C3 1
+ C4 1
+ NegR1 1
+ dropoutR1 2
+ power_male1 5
+ 3x21 6
+ 3x21 3
+ PMETER1 4
+Net 114 "/s15" "s15"
+ SWITCH15 5
+ OUTPUT15-16 16
+ OUTPUT15-16 17
+ OUTPUT15-16 19
+ OUTPUT15-16 18
+Net 115 "/s16" "s16"
+ SWITCH16 5
+ OUTPUT15-16 15
+ OUTPUT15-16 12
+ OUTPUT15-16 14
+ OUTPUT15-16 13
+Net 120 "/s3" "s3"
+ SWITCH3 5
+ OUTPUT3-4 18
+ OUTPUT3-4 16
+ OUTPUT3-4 19
+ OUTPUT3-4 17
+Net 121 "/s12" "s12"
+ OUTPUT11-12 8
+ OUTPUT11-12 7
+ OUTPUT11-12 6
+ OUTPUT11-12 9
+ SWITCH12 5
+Net 122 "/s10" "s10"
+ OUTPUT9-10 12
+ OUTPUT9-10 13
+ OUTPUT9-10 14
+ SWITCH10 5
+ OUTPUT9-10 15
+Net 123 "/a" "a"
+ SWITCH8 1
+ SWITCH4 1
+ SWITCH9 1
+ CHAIN1 1
+ SWITCH1 1
+ SWITCH15 1
+ SWITCH14 1
+ SWITCH13 1
+ SWITCH10 1
+ SWITCH2 1
+ SWITCH12 1
+ SWITCH11 1
+ SWITCH3 1
+ SWITCH16 1
+ SWITCH5 1
+ SWITCH7 1
+ SWITCH6 1
+Net 124 "/b" "b"
+ SWITCH15 2
+ SWITCH7 2
+ SWITCH13 2
+ SWITCH14 2
+ SWITCH1 2
+ SWITCH9 2
+ SWITCH12 2
+ CHAIN1 2
+ SWITCH5 2
+ SWITCH16 2
+ SWITCH4 2
+ SWITCH3 2
+ SWITCH6 2
+ SWITCH10 2
+ SWITCH8 2
+ SWITCH11 2
+ SWITCH2 2
+Net 125 "/s11" "s11"
+ SWITCH11 5
+ OUTPUT11-12 3
+ OUTPUT11-12 2
+ OUTPUT11-12 4
+ OUTPUT11-12 5
+Net 126 "/c" "c"
+ SWITCH7 3
+ SWITCH14 3
+ SWITCH1 3
+ SWITCH13 3
+ SWITCH12 3
+ SWITCH11 3
+ SWITCH8 3
+ SWITCH5 3
+ SWITCH2 3
+ SWITCH10 3
+ SWITCH15 3
+ SWITCH3 3
+ SWITCH16 3
+ SWITCH6 3
+ SWITCH9 3
+ CHAIN1 3
+ SWITCH4 3
+Net 127 "/s13" "s13"
+ OUTPUT13-14 17
+ OUTPUT13-14 16
+ OUTPUT13-14 18
+ SWITCH13 5
+ OUTPUT13-14 19
+Net 128 "/s14" "s14"
+ SWITCH14 5
+ OUTPUT13-14 15
+ OUTPUT13-14 12
+ OUTPUT13-14 14
+ OUTPUT13-14 13
+Net 129 "/s4" "s4"
+ OUTPUT3-4 15
+ SWITCH4 5
+ OUTPUT3-4 12
+ OUTPUT3-4 14
+ OUTPUT3-4 13
+Net 134 "/s2" "s2"
+ SWITCH2 5
+ OUTPUT1-2 15
+ OUTPUT1-2 14
+ OUTPUT1-2 13
+ OUTPUT1-2 12
+Net 135 "/s1" "s1"
+ OUTPUT1-2 19
+ OUTPUT1-2 18
+ OUTPUT1-2 17
+ SWITCH1 5
+ OUTPUT1-2 16
+Net 136 "/GR" "GR"
+ 3x21 1
+ power_male1 4
+ OUTPUT1-2 1
+}
+#End
