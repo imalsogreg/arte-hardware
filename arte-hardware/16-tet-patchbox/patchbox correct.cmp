@@ -1,0 +1,381 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 28 Apr 2014 02:40:10 PM EDT
+
+BeginCmp
+TimeStamp = /5329AA62;
+Reference = 3x21;
+ValeurCmp = LED_POW_GND;
+IdModule  = IDC3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5BE4;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5BD1;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5BDE;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5E6C;
+Reference = C4;
+ValeurCmp = CP;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5E79;
+Reference = C5;
+ValeurCmp = CP;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AAFC;
+Reference = CHAIN1;
+ValeurCmp = 4x1;
+IdModule  = IDC4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5A6D;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5A60;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5A7E;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5C1D;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C66C6;
+Reference = dropoutR1;
+ValeurCmp = GS3;
+IdModule  = dropout;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C6603;
+Reference = NegR1;
+ValeurCmp = GS3;
+IdModule  = negreg;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ACAF;
+Reference = OUTPUT1-2;
+ValeurCmp = OUTPUT1-2;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ACBE;
+Reference = OUTPUT3-4;
+ValeurCmp = OUTPUT3-4;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ACCD;
+Reference = OUTPUT5-6;
+ValeurCmp = OUTPUT5-6;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ACDC;
+Reference = OUTPUT7-8;
+ValeurCmp = OUTPUT7-8;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ACEB;
+Reference = OUTPUT9-10;
+ValeurCmp = OUTPUT9-10;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ACFA;
+Reference = OUTPUT11-12;
+ValeurCmp = OUTPUT11-12;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AD09;
+Reference = OUTPUT13-14;
+ValeurCmp = OUTPUT13-14;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AD18;
+Reference = OUTPUT15-16;
+ValeurCmp = OUTPUT15-16;
+IdModule  = IDC10x2correct;
+EndCmp
+
+BeginCmp
+TimeStamp = /534C18F7;
+Reference = PMETER1;
+ValeurCmp = PMETER;
+IdModule  = PMETER;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C59F4;
+Reference = power_male1;
+ValeurCmp = power_male;
+IdModule  = powermale;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5B58;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533C5B98;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53306792;
+Reference = REF1-4;
+ValeurCmp = REF1-4;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53306798;
+Reference = REF5-8;
+ValeurCmp = REF5-8;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5330679E;
+Reference = REF9-12;
+ValeurCmp = REF9-12;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /533067A4;
+Reference = REF13-16;
+ValeurCmp = REF13-16;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /534C2618;
+Reference = screw1;
+ValeurCmp = CONN_1;
+IdModule  = screw;
+EndCmp
+
+BeginCmp
+TimeStamp = /534C262A;
+Reference = screw2;
+ValeurCmp = CONN_1;
+IdModule  = screw;
+EndCmp
+
+BeginCmp
+TimeStamp = /534C2630;
+Reference = screw3;
+ValeurCmp = CONN_1;
+IdModule  = screw;
+EndCmp
+
+BeginCmp
+TimeStamp = /534C2636;
+Reference = screw4;
+ValeurCmp = CONN_1;
+IdModule  = screw;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ABB0;
+Reference = SWITCH1;
+ValeurCmp = SWITCH1;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ABBF;
+Reference = SWITCH2;
+ValeurCmp = SWITCH2;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ABCE;
+Reference = SWITCH3;
+ValeurCmp = SWITCH3;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ABDD;
+Reference = SWITCH4;
+ValeurCmp = SWITCH4;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ABEC;
+Reference = SWITCH5;
+ValeurCmp = SWITCH5;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ABFB;
+Reference = SWITCH6;
+ValeurCmp = SWITCH6;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC0A;
+Reference = SWITCH7;
+ValeurCmp = SWITCH7;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC28;
+Reference = SWITCH8;
+ValeurCmp = SWITCH8;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC37;
+Reference = SWITCH9;
+ValeurCmp = SWITCH9;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC46;
+Reference = SWITCH10;
+ValeurCmp = SWITCH10;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC55;
+Reference = SWITCH11;
+ValeurCmp = SWITCH11;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC64;
+Reference = SWITCH12;
+ValeurCmp = SWITCH12;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC73;
+Reference = SWITCH13;
+ValeurCmp = SWITCH13;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC82;
+Reference = SWITCH14;
+ValeurCmp = SWITCH14;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329AC91;
+Reference = SWITCH15;
+ValeurCmp = SWITCH15;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /5329ACA0;
+Reference = SWITCH16;
+ValeurCmp = SWITCH16;
+IdModule  = Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /533066E7;
+Reference = TET1-4;
+ValeurCmp = TET1-4;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /533066F4;
+Reference = TET5-8;
+ValeurCmp = TET5-8;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /533066FA;
+Reference = TET9-12;
+ValeurCmp = TET9-12;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53306700;
+Reference = TET13-16;
+ValeurCmp = TET13-16;
+IdModule  = IDC8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5342E9D8;
+Reference = U1;
+ValeurCmp = POWER_SWITCH;
+IdModule  = powswitch;
+EndCmp
+
+EndListe
