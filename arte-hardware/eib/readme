@@ -1,0 +1,30 @@
+PIN LAYOUT from FRONT TO BACK
+T# is tetrode number
+
+***LEFT SIDE
+
++5        -5
+none      GND-RAT
+T4        T0
+T5        T1
+T6        T2
+T7        T3
+T8        T12
+T9        T13
+T10       T14
+T11       T15
+GND-BRD   none
+
+***RIGHT SIDE
+
++5        -5
+none      GND-RAT
+T31       T27
+T30       T26
+T29       T25
+T28       T24
+T19       T23
+T18       T22
+T17       T21
+T16       T20
+GND-BRD   none
