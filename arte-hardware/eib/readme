@@ -13,7 +13,7 @@ T8        T12
 T9        T13
 T10       T14
 T11       T15
-GND-BRD   none
+GND-BRD   LED
 
 ***RIGHT SIDE
 
@@ -27,4 +27,4 @@ T19       T23
 T18       T22
 T17       T21
 T16       T20
-GND-BRD   none
+GND-BRD   LED
